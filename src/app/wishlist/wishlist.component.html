@@ -1,0 +1,8 @@
+<h1>Wishlist</h1>
+<p *ngIf="books.length === 0">Your wishlist is empty.</p>
+<ul>
+  <li *ngFor="let book of books">
+    <div>{{ book.title }}</div>
+    <button (click)="removeBook(book)">Delete</button>
+  </li>
+</ul>

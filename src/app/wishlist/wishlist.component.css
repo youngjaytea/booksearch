@@ -1,0 +1,26 @@
+/* Style the header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Style the "Delete" button */
+.delete-button {
+  margin-left: auto;
+}
+
+/* Style the wishlist items */
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add some margin to the top of the wishlist items so they don't overlap with the toolbar */
+.wishlist {
+  margin-top: 64px;
+}
